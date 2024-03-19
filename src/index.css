@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button,
+p {
+	margin: 0px;
+	border: 0px;
+}
+

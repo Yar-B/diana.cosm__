@@ -1,0 +1,126 @@
+.button {
+	background-color: #ff0480;
+	border-radius: 20px;
+	font-size: 25px;
+	height: 50px;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.button:hover {
+	transition: 0.3s;
+	background-color: #fff;
+	color: #ff0480;
+}
+
+.page-wrapper {
+	height: 100vh;
+	width: 100%;
+	background-color: #727881;
+}
+
+.first-page {
+	background: url('./assets/me3.JPEG') no-repeat center;
+	height: 100%;
+	background-size: contain;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+@media (max-width: 1000px) {
+	.first-page {
+		background-size: cover;
+	}
+}
+
+.first-page-title {
+	backdrop-filter: blur(15px);
+	margin-bottom: 10px;
+	border-radius: 20px;
+	color: #ff0480;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+}
+
+.first-page-title > .title {
+	font-size: 85px;
+	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+}
+
+.first-page-title > .description {
+	font-size: 32px;
+	margin-bottom: 25px;
+}
+
+.first-page-title > .button {
+	align-self: center;
+	width: 50%;
+}
+
+.second-page {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.second-page > .title {
+	color: white;
+	font-size: 90px;
+	margin-bottom: 90px;
+}
+
+.second-page > .description {
+	font-size: 40px;
+	max-width: 700px;
+	text-align: center;
+	color: white;
+	margin: 0 25px;
+	margin-bottom: 90px;
+}
+
+.second-page > .photos {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.brightness-70 {
+	backdrop-filter: brightness(70%);
+	width: 100%;
+	height: 100%;
+}
+
+.main-color {
+	color: #ff0480;
+}
+
+.photo-1 {
+	width: 300px;
+	height: 300px;
+	background: url('./assets/works/work1.JPG') no-repeat center;
+	background-size: cover;
+	filter: grayscale(1);
+}
+.photo-2 {
+	width: 300px;
+	height: 300px;
+	background: url('./assets/works/work2.JPG') no-repeat center;
+	background-size: cover;
+	filter: grayscale(1);
+}
+.photo-3 {
+	width: 300px;
+	height: 300px;
+	background: url('./assets/works/work3.JPG') no-repeat center;
+	background-size: cover;
+	filter: grayscale(1);
+}
+
