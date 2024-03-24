@@ -9,8 +9,7 @@ function FirstPage() {
 							<p>КОСМЕТОЛОГ</p>
 						</div>
 						<div className='description'>
-							<p>Мастер эстетической и инъекционной косметологии</p>
-							<p>- Диана</p>
+							<p>Мастер эстетической и инъекционной косметологии - Диана</p>
 						</div>
 						<button className='button'>Связаться</button>
 					</div>
@@ -21,3 +20,4 @@ function FirstPage() {
 }
 
 export default FirstPage
+
