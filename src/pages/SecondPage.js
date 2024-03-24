@@ -16,9 +16,15 @@ function SecondPage() {
 						</p>
 					</div>
 					<div className='photos'>
-						<div className='photo-3'></div>
-						<div className='photo-1'></div>
-						<div className='photo-2'></div>
+						<div>
+							<div className='photo-of-works photo-3'></div>
+							<div className='photo-of-works photo-4'></div>
+						</div>
+						<div style={{ width: '10px' }}></div>
+						<div>
+							<div className='photo-of-works photo-1'></div>
+							<div className='photo-of-works photo-2'></div>
+						</div>
 					</div>
 				</div>
 			</div>
