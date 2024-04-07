@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
+	width: 100vw;
+	height: 100vh;
 	margin: 0;
 	font-family: 'PT Serif', serif;
 	font-weight: 400;
@@ -17,3 +19,4 @@ p {
 	margin: 0px;
 	border: 0px;
 }
+
