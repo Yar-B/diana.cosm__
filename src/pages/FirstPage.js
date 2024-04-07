@@ -1,4 +1,9 @@
 function FirstPage() {
+	function goToContacts() {
+		console.log('first')
+		window.location.href = '#contacts'
+	}
+
 	return (
 		<>
 			<div className='page-wrapper'>
@@ -11,7 +16,9 @@ function FirstPage() {
 						<div className='description'>
 							<p>Мастер эстетической и инъекционной косметологии - Диана</p>
 						</div>
-						<button className='button'>Связаться</button>
+						<button onClick={() => goToContacts()} className='button'>
+							Связаться
+						</button>
 					</div>
 				</div>
 			</div>

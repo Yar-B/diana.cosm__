@@ -20,3 +20,6 @@ p {
 	border: 0px;
 }
 
+* {
+	scroll-behavior: smooth;
+}
