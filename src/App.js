@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 import './App.css'
+import ContactPage from './pages/ContactPage'
 import ErrorSizePage from './pages/ErrorSizePage'
 import FirstPage from './pages/FirstPage'
-import PriceListFirstPage from './pages/PriceListFirstPage'
+import PriceListPage from './pages/PriceListPage'
 import SecondPage from './pages/SecondPage'
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
 				<>
 					<FirstPage />
 					<SecondPage />
-					<PriceListFirstPage />
+					<PriceListPage />
+					<ContactPage />
 				</>
 			) : (
 				<>
