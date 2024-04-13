@@ -6,6 +6,7 @@ import ErrorSizePage from './pages/ErrorSizePage'
 import FirstPage from './pages/FirstPage'
 import PriceListPage from './pages/PriceListPage'
 import SecondPage from './pages/SecondPage'
+import WorkExamplesPage from './pages/WorkExamplesPage'
 
 function App() {
 	const [clientWindowSize, setClientWindowSize] = useState(0)
@@ -22,6 +23,7 @@ function App() {
 					<FirstPage />
 					<SecondPage />
 					<PriceListPage />
+					<WorkExamplesPage />
 					<ContactPage />
 				</>
 			) : (
