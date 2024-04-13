@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/diana.cosm__/static/css/main.35baacfd.css",
-    "main.js": "/diana.cosm__/static/js/main.731ac4dc.js",
+    "main.css": "/diana.cosm__/static/css/main.8f8b57b9.css",
+    "main.js": "/diana.cosm__/static/js/main.175e45ce.js",
     "static/media/me3.JPEG": "/diana.cosm__/static/media/me3.8134baf20602fe0ad78e.JPEG",
+    "static/media/work-example2.JPG": "/diana.cosm__/static/media/work-example2.452079c2adc1600a316a.JPG",
+    "static/media/work-example1.JPG": "/diana.cosm__/static/media/work-example1.74e8e420365205ec5e2f.JPG",
+    "static/media/work-example3.JPG": "/diana.cosm__/static/media/work-example3.86f1a11387c22cc8c2e7.JPG",
+    "static/media/work-example4.JPG": "/diana.cosm__/static/media/work-example4.d831964559bb1afe9d99.JPG",
     "static/media/work1.JPG": "/diana.cosm__/static/media/work1.ef84b76e6933529b3ba5.JPG",
     "static/media/work3.JPG": "/diana.cosm__/static/media/work3.766c17c3dbdcdc6b9ce9.JPG",
     "static/media/work4.JPG": "/diana.cosm__/static/media/work4.e4afd7ff1c83e78cc17e.JPG",
     "static/media/work2.JPG": "/diana.cosm__/static/media/work2.e5d3f6fdddadb850d51a.JPG",
+    "static/media/arrow-left.png": "/diana.cosm__/static/media/arrow-left.40fdba482594d681a081.png",
     "index.html": "/diana.cosm__/index.html",
-    "main.35baacfd.css.map": "/diana.cosm__/static/css/main.35baacfd.css.map",
-    "main.731ac4dc.js.map": "/diana.cosm__/static/js/main.731ac4dc.js.map"
+    "main.8f8b57b9.css.map": "/diana.cosm__/static/css/main.8f8b57b9.css.map",
+    "main.175e45ce.js.map": "/diana.cosm__/static/js/main.175e45ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.35baacfd.css",
-    "static/js/main.731ac4dc.js"
+    "static/css/main.8f8b57b9.css",
+    "static/js/main.175e45ce.js"
   ]
 }
