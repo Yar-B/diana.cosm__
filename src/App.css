@@ -178,19 +178,19 @@
 }
 
 .photo-1 {
-	background: url('./assets/works/work1.JPG') no-repeat center;
+	background: url('./assets/works/work1.JPEG') no-repeat center;
 	background-size: cover;
 }
 .photo-2 {
-	background: url('./assets/works/work2.JPG') no-repeat center;
+	background: url('./assets/works/work2.JPEG') no-repeat center;
 	background-size: cover;
 }
 .photo-3 {
-	background: url('./assets/works/work3.JPG') no-repeat center;
+	background: url('./assets/works/work3.JPEG') no-repeat center;
 	background-size: cover;
 }
 .photo-4 {
-	background: url('./assets/works/work4.JPG') no-repeat center;
+	background: url('./assets/works/work4.JPEG') no-repeat center;
 	background-size: cover;
 }
 
