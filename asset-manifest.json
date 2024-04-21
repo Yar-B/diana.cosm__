@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/diana.cosm__/static/css/main.57ad73c2.css",
-    "main.js": "/diana.cosm__/static/js/main.175e45ce.js",
-    "static/media/me3.JPEG": "/diana.cosm__/static/media/me3.8134baf20602fe0ad78e.JPEG",
+    "main.css": "/diana.cosm__/static/css/main.2a558850.css",
+    "main.js": "/diana.cosm__/static/js/main.0d8032d5.js",
+    "static/media/me.JPEG": "/diana.cosm__/static/media/me.3ff130c74c8f9cd9b179.JPEG",
     "static/media/work-example2.JPG": "/diana.cosm__/static/media/work-example2.452079c2adc1600a316a.JPG",
     "static/media/work-example1.JPG": "/diana.cosm__/static/media/work-example1.74e8e420365205ec5e2f.JPG",
     "static/media/work-example3.JPG": "/diana.cosm__/static/media/work-example3.86f1a11387c22cc8c2e7.JPG",
@@ -13,11 +13,11 @@
     "static/media/work2.JPEG": "/diana.cosm__/static/media/work2.e5d3f6fdddadb850d51a.JPEG",
     "static/media/arrow-left.png": "/diana.cosm__/static/media/arrow-left.40fdba482594d681a081.png",
     "index.html": "/diana.cosm__/index.html",
-    "main.57ad73c2.css.map": "/diana.cosm__/static/css/main.57ad73c2.css.map",
-    "main.175e45ce.js.map": "/diana.cosm__/static/js/main.175e45ce.js.map"
+    "main.2a558850.css.map": "/diana.cosm__/static/css/main.2a558850.css.map",
+    "main.0d8032d5.js.map": "/diana.cosm__/static/js/main.0d8032d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ad73c2.css",
-    "static/js/main.175e45ce.js"
+    "static/css/main.2a558850.css",
+    "static/js/main.0d8032d5.js"
   ]
 }
