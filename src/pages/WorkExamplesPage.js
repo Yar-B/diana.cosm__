@@ -81,9 +81,9 @@ function WorkExamplesPage() {
 									<span
 										key={i}
 										style={{
-											border: '1px solid white',
+											border: '1px solid #727881',
 											borderRadius: '10px',
-											backgroundColor: i === index ? '#ff0480' : 'white',
+											backgroundColor: i === index ? '#ff0480' : '#727881',
 											marginRight: '10px',
 											width: '10px',
 											height: '10px',
@@ -95,10 +95,10 @@ function WorkExamplesPage() {
 							})}
 						</div>
 					</div>
-					<div className='more-works-button'>
+					{/* <div className='more-works-button'>
 						<span>еще больше работ</span>
 						<img src={rightArrow} style={{ width: 10 }} />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</>

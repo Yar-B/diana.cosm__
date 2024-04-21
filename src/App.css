@@ -1,3 +1,7 @@
+.display-flex {
+	display: flex;
+}
+
 .button {
 	background-color: #ff0480;
 	border-radius: 20px;
@@ -18,7 +22,8 @@
 .page-wrapper {
 	height: 100vh;
 	width: 100%;
-	background-color: #727881;
+	background-color: white;
+	border-bottom: 1px solid #727881;
 }
 
 @media (max-width: 450px) {
@@ -50,10 +55,15 @@
 	background-size: contain;
 }
 
-.first-page {
-	background: url('./assets/me3.JPEG') no-repeat center;
+.first-page-bg {
+	background: url('./assets/me.JPEG') no-repeat center;
+	background-size: cover;
 	height: 100dvh;
-	background-size: contain;
+}
+
+.first-page {
+	background: linear-gradient(transparent 60%, white 90%);
+	height: 100dvh;
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
@@ -117,7 +127,7 @@
 
 .second-page > .title {
 	flex: 1;
-	color: white;
+	color: #727881;
 	font-size: 90px;
 	font-weight: 400;
 	display: flex;
@@ -129,7 +139,7 @@
 	font-size: 40px;
 	max-width: 700px;
 	text-align: center;
-	color: white;
+	color: #727881;
 	margin: 0 25px;
 	font-weight: 400;
 	/* margin-bottom: 90px; */
@@ -204,12 +214,13 @@
 
 .price-list-page-wrapper {
 	width: 100%;
-	background-color: #727881;
+	background-color: white;
+	border-bottom: 1px solid #727881;
 }
 
 .price-list-page {
 	margin: 0px 5px;
-	padding-top: 10px;
+	padding: 10px 0 30px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -219,7 +230,7 @@
 
 .price-list-page > .title {
 	margin: 20px 0;
-	color: white;
+	color: #727881;
 	font-size: 40px;
 	font-weight: 400;
 	align-text: center;
@@ -230,7 +241,7 @@
 	border-radius: 10px;
 	padding: 10px 20px;
 	margin-bottom: 10px;
-	color: white;
+	color: #727881;
 	h2 {
 		margin-top: 0;
 	}
@@ -265,7 +276,7 @@
 
 .work-examples-page > .title {
 	margin-bottom: 30px;
-	color: white;
+	color: #727881;
 	font-size: 40px;
 	font-weight: 400;
 	align-text: center;
@@ -317,21 +328,56 @@
 }
 
 .contact-page {
-	padding-top: 10px;
+	padding-top: 60px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	height: 100%;
 	box-sizing: border-box;
-	justify-content: space-around;
+	justify-content: flex-start;
+	& > .title {
+		pointer-events: none;
+		text-decoration: none;
+		color: #727881;
+		font-size: 40px;
+		font-weight: 400;
+		margin-bottom: 60px;
+	}
+	& > .content {
+		box-sizing: border-box;
+		padding: 0 10px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
-.contact-page > .title {
-	pointer-events: none;
-	text-decoration: none;
+.social-media-item {
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	width: 100%;
+	background-color: #ff0480;
+	border-radius: 20px;
+	padding: 10px 30px 10px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&:active {
+		transition: 0.3s;
+		background-color: #ff048073;
+	}
+}
+
+.social-media-icon {
+	margin-right: 20px;
+	height: 30px;
+}
+
+.social-media-title {
 	color: white;
-	font-size: 40px;
-	font-weight: 400;
-	align-text: center;
+	display: flex;
+	align-items: center;
 }
 
