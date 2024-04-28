@@ -16,7 +16,7 @@ function ContactPage() {
 					<div className='content'>
 						<div
 							className='social-media-item'
-							onClick={() => document.location.replace('https://t.me/DIANA_ROMANOVNA_T')}
+							onClick={() => document.location.assign('https://t.me/DIANA_ROMANOVNA_T')}
 						>
 							<div className='display-flex'>
 								<img src={tgIcon} className='social-media-icon' />
@@ -24,7 +24,7 @@ function ContactPage() {
 							</div>
 							<img src={rightArrow} style={{ width: 10 }} />
 						</div>
-						<div className='social-media-item' onClick={() => document.location.replace('https://wa.me/89966218255')}>
+						<div className='social-media-item' onClick={() => document.location.assign('https://wa.me/89966218255')}>
 							<div className='display-flex'>
 								<img src={waIcon} className='social-media-icon' />
 								<div className='social-media-title'>WhatsApp</div>
@@ -33,7 +33,7 @@ function ContactPage() {
 						</div>
 						<div
 							className='social-media-item'
-							onClick={() => document.location.replace('https://www.instagram.com/diana.cosm__')}
+							onClick={() => document.location.assign('https://www.instagram.com/diana.cosm__')}
 						>
 							<div className='display-flex'>
 								<img src={instIcon} className='social-media-icon' />
@@ -41,10 +41,7 @@ function ContactPage() {
 							</div>
 							<img src={rightArrow} style={{ width: 10 }} />
 						</div>
-						<div
-							className='social-media-item'
-							onClick={() => document.location.replace('https://vk.com/t.d_romanovna')}
-						>
+						<div className='social-media-item' onClick={() => document.location.assign('https://vk.com/t.d_romanovna')}>
 							<div className='display-flex'>
 								<img src={vkIcon} className='social-media-icon' />
 								<div className='social-media-title'>VK</div>
