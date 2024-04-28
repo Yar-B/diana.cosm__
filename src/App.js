@@ -9,7 +9,7 @@ import SecondPage from './pages/SecondPage'
 import WorkExamplesPage from './pages/WorkExamplesPage'
 
 function App() {
-	const [clientWindowSize, setClientWindowSize] = useState(0)
+	const [clientWindowSize, setClientWindowSize] = useState(document.body.clientHeight / document.body.clientWidth)
 	window.addEventListener('resize', () => {
 		setClientWindowSize(document.body.clientHeight / document.body.clientWidth)
 	})
