@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/diana.cosm__/static/css/main.f0b57ba7.css",
+    "main.css": "/diana.cosm__/static/css/main.110e27f4.css",
     "main.js": "/diana.cosm__/static/js/main.dda1c822.js",
     "static/media/me.JPEG": "/diana.cosm__/static/media/me.3ff130c74c8f9cd9b179.JPEG",
     "static/media/work-example2.JPG": "/diana.cosm__/static/media/work-example2.452079c2adc1600a316a.JPG",
@@ -13,11 +13,11 @@
     "static/media/work2.JPEG": "/diana.cosm__/static/media/work2.e5d3f6fdddadb850d51a.JPEG",
     "static/media/arrow-left.png": "/diana.cosm__/static/media/arrow-left.40fdba482594d681a081.png",
     "index.html": "/diana.cosm__/index.html",
-    "main.f0b57ba7.css.map": "/diana.cosm__/static/css/main.f0b57ba7.css.map",
+    "main.110e27f4.css.map": "/diana.cosm__/static/css/main.110e27f4.css.map",
     "main.dda1c822.js.map": "/diana.cosm__/static/js/main.dda1c822.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0b57ba7.css",
+    "static/css/main.110e27f4.css",
     "static/js/main.dda1c822.js"
   ]
 }
