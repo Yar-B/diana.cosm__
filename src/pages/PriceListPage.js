@@ -8,15 +8,15 @@ function PriceListPage() {
 						<h2>Массаж лица</h2>
 						<div className='service-row'>
 							<p>Классический</p>
-							<span>2400</span>
+							<span>1500</span>
 						</div>
 						<div className='service-row'>
 							<p>Пластический</p>
-							<span>2800</span>
+							<span>2100</span>
 						</div>
 						<div className='service-row'>
 							<p>Лечебный по Жаке</p>
-							<span>2800</span>
+							<span>2100</span>
 						</div>
 					</div>
 
@@ -24,15 +24,15 @@ function PriceListPage() {
 						<h2>Эстетическая косметология</h2>
 						<div className='service-row'>
 							<p>Очищающий комплекс лица (чистка)</p>
-							<span>3300</span>
+							<span>2300</span>
 						</div>
 						<div className='service-row'>
 							<p>Неинвазивная карбокситерапия</p>
-							<span>2700</span>
+							<span>1800</span>
 						</div>
 						<div className='service-row'>
 							<p>Всесезонный пилинг "PRC Finistere"</p>
-							<span>2800</span>
+							<span>3500</span>
 						</div>
 					</div>
 
@@ -47,21 +47,32 @@ function PriceListPage() {
 					<div className='price-list-card'>
 						<h2>Комплексы</h2>
 						<div className='service-row'>
-							<p>Очищающий комплекс лица + пилинг</p>
-							<span>3500/3700</span>
+							<p>Очищающий комплекс лица + пилинг "ACNON"</p>
+							<span>2500</span>
 						</div>
 						<div className='service-row'>
+							<p>Очищающий комплекс лица + пилинг "BioRePeelCl3"</p>
+							<span>4500</span>
+						</div>
+						{/* <div className='service-row'>
+							<p>Очищающий комплекс лица + пилинг "PRX-T33"</p>
+							<span>4500</span>
+						</div> */}
+						<div className='service-row'>
 							<p>Классический массаж лица + альгинатная маска</p>
-							<span>2600</span>
+							<span>1700</span>
 						</div>
 						<div className='service-row'>
 							<p>Профессиональный уход за жирной кожей лица + дарсонваль</p>
-							<span>3200</span>
+							<span>2100</span>
 						</div>
 						<div className='service-row'>
 							<p>Профессиональный уход лица + альгинатная маска</p>
-							<span>3000</span>
+							<span>2100</span>
 						</div>
+					</div>
+					<div className='bottom-row'>
+						<p>Первичная консультация входит в стоимость процедур</p>
 					</div>
 				</div>
 			</div>
