@@ -262,6 +262,13 @@
 	}
 }
 
+.bottom-row {
+	color: #727881;
+	padding: 40px 0 15px 0;
+	border-bottom: 3px solid #ff0480;
+	margin: 0 20px;
+}
+
 .work-examples-page {
 	margin: 0 10px;
 	padding-top: 10px;
