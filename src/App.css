@@ -388,3 +388,12 @@
 	align-items: center;
 }
 
+.footer-row {
+	box-sizing: border-box;
+	padding: 0 20px;
+	color: #727881;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
