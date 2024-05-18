@@ -3,10 +3,14 @@ import work1 from '../assets/work-examples/work-example1.JPG'
 import work2 from '../assets/work-examples/work-example2.JPG'
 import work3 from '../assets/work-examples/work-example3.JPG'
 import work4 from '../assets/work-examples/work-example4.JPG'
+import work5 from '../assets/work-examples/work-example5.JPG'
+import work6 from '../assets/work-examples/work-example6.JPG'
+import work7 from '../assets/work-examples/work-example7.JPG'
+import work8 from '../assets/work-examples/work-example8.JPG'
 import rightArrow from '../assets/arrow-right.png'
 import leftArrow from '../assets/arrow-left.png'
 
-const photoArr = [work1, work2, work3, work4]
+const photoArr = [work1, work2, work3, work4, work5, work6, work7, work8]
 
 function WorkExamplesPage() {
 	const [index, setIndex] = useState(0)

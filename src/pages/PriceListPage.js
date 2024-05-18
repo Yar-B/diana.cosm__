@@ -31,7 +31,7 @@ function PriceListPage() {
 							<span>1800</span>
 						</div>
 						<div className='service-row'>
-							<p>Всесезонный пилинг "PRC Finistere"</p>
+							<p>Всесезонный пилинг "BioRePeelCl3"</p>
 							<span>3500</span>
 						</div>
 					</div>
