@@ -299,19 +299,20 @@
 .photo-slide-button-wrapper {
 	display: flex;
 	width: 40%;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .photo-slide-button {
-	height: 80px;
-	width: 20px;
-	background-color: #0000002b;
-	&.right {
+	height: 50px;
+	width: 50px;
+	background-color: #ff0480;
+	/* &.right {
 		border-radius: 10px 0 0 10px;
 	}
 	&.left {
 		border-radius: 0 10px 10px 0;
-	}
+	} */
+	border-radius: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
