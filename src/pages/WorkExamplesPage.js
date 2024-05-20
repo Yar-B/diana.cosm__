@@ -10,7 +10,7 @@ import work8 from '../assets/work-examples/work-example8.JPG'
 import rightArrow from '../assets/arrow-right.png'
 import leftArrow from '../assets/arrow-left.png'
 
-const photoArr = [work1, work2, work3, work4, work5, work6, work7, work8]
+const photoArr = [work1, work3, work4, work5, work6, work7, work8]
 
 function WorkExamplesPage() {
 	const [index, setIndex] = useState(0)
@@ -24,7 +24,7 @@ function WorkExamplesPage() {
 
 	return (
 		<>
-			<div className='page-wrapper'>
+			<div className='page-wrapper' style={{ height: 'fit-content' }}>
 				<div className='work-examples-page'>
 					<div className='title'>Портфолио</div>
 					<div
@@ -52,26 +52,6 @@ function WorkExamplesPage() {
 									/>
 								)
 							})}
-							<div
-								style={{
-									position: 'relative',
-									width: '100%',
-									height: '100%',
-									display: 'flex',
-									justifyContent: 'space-between'
-								}}
-							>
-								<div className='photo-slide-button-wrapper'>
-									<span className='photo-slide-button left' onClick={prevPhoto}>
-										<img src={leftArrow} style={{ width: 10 }} />
-									</span>
-								</div>
-								<div className='photo-slide-button-wrapper' style={{ justifyContent: 'flex-end' }}>
-									<span className='photo-slide-button right' onClick={nextPhoto}>
-										<img src={rightArrow} style={{ width: 10 }} />
-									</span>
-								</div>
-							</div>
 						</div>
 						<div
 							style={{
@@ -97,6 +77,26 @@ function WorkExamplesPage() {
 									></span>
 								)
 							})}
+						</div>
+					</div>
+					<div
+						style={{
+							position: 'relative',
+							width: '100%',
+							height: '100%',
+							display: 'flex',
+							justifyContent: 'space-evenly'
+						}}
+					>
+						<div className='photo-slide-button-wrapper'>
+							<span className='photo-slide-button left' onClick={prevPhoto}>
+								<img src={leftArrow} style={{ width: 10 }} />
+							</span>
+						</div>
+						<div className='photo-slide-button-wrapper' style={{ justifyContent: 'flex-end' }}>
+							<span className='photo-slide-button right' onClick={nextPhoto}>
+								<img src={rightArrow} style={{ width: 10 }} />
+							</span>
 						</div>
 					</div>
 					{/* <div className='more-works-button'>
