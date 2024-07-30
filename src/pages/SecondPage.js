@@ -22,15 +22,15 @@ function SecondPage() {
 						</div>
 						<div style={{ width: '10px' }}></div>
 						<div>
-							<div className='photo-of-works photo-1'></div>
 							<div className='photo-of-works photo-2'></div>
+							<div className='photo-of-works photo-1'></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</>
-	)
+	);
 }
 
-export default SecondPage
+export default SecondPage;
 
