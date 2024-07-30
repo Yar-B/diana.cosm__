@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/diana.cosm__/static/css/main.634e815a.css",
-    "main.js": "/diana.cosm__/static/js/main.86f6d0c0.js",
+    "main.css": "/diana.cosm__/static/css/main.3fdab595.css",
+    "main.js": "/diana.cosm__/static/js/main.184f4f96.js",
     "static/media/work-example5.JPG": "/diana.cosm__/static/media/work-example5.eccc17cc9a5c7b15eb80.JPG",
     "static/media/work-example8.JPG": "/diana.cosm__/static/media/work-example8.9babf6d6853712d95544.JPG",
     "static/media/work-example6.JPG": "/diana.cosm__/static/media/work-example6.37df3a3aa8541771aa06.JPG",
     "static/media/work-example7.JPG": "/diana.cosm__/static/media/work-example7.1b6efea03311c316a150.JPG",
-    "static/media/me.JPEG": "/diana.cosm__/static/media/me.3ff130c74c8f9cd9b179.JPEG",
+    "static/media/work1.JPEG": "/diana.cosm__/static/media/work1.25635a73921d32d32f58.JPEG",
+    "static/media/work3.JPEG": "/diana.cosm__/static/media/work3.cf5322fca6d7cfa8ef9c.JPEG",
     "static/media/work-example2.JPG": "/diana.cosm__/static/media/work-example2.452079c2adc1600a316a.JPG",
+    "static/media/work4.JPEG": "/diana.cosm__/static/media/work4.70ad73c19c286543d7fd.JPEG",
     "static/media/work-example1.JPG": "/diana.cosm__/static/media/work-example1.74e8e420365205ec5e2f.JPG",
+    "static/media/work2.JPEG": "/diana.cosm__/static/media/work2.9764b96747fec8028bb2.JPEG",
     "static/media/work-example3.JPG": "/diana.cosm__/static/media/work-example3.86f1a11387c22cc8c2e7.JPG",
     "static/media/work-example4.JPG": "/diana.cosm__/static/media/work-example4.d831964559bb1afe9d99.JPG",
-    "static/media/work1.JPEG": "/diana.cosm__/static/media/work1.ef84b76e6933529b3ba5.JPEG",
-    "static/media/work3.JPEG": "/diana.cosm__/static/media/work3.766c17c3dbdcdc6b9ce9.JPEG",
-    "static/media/work4.JPEG": "/diana.cosm__/static/media/work4.e4afd7ff1c83e78cc17e.JPEG",
-    "static/media/work2.JPEG": "/diana.cosm__/static/media/work2.e5d3f6fdddadb850d51a.JPEG",
+    "static/media/me.JPEG": "/diana.cosm__/static/media/me.0ec079173fa163aa86ad.JPEG",
     "static/media/arrow-left.png": "/diana.cosm__/static/media/arrow-left.40fdba482594d681a081.png",
     "index.html": "/diana.cosm__/index.html",
-    "main.634e815a.css.map": "/diana.cosm__/static/css/main.634e815a.css.map",
-    "main.86f6d0c0.js.map": "/diana.cosm__/static/js/main.86f6d0c0.js.map"
+    "main.3fdab595.css.map": "/diana.cosm__/static/css/main.3fdab595.css.map",
+    "main.184f4f96.js.map": "/diana.cosm__/static/js/main.184f4f96.js.map"
   },
   "entrypoints": [
-    "static/css/main.634e815a.css",
-    "static/js/main.86f6d0c0.js"
+    "static/css/main.3fdab595.css",
+    "static/js/main.184f4f96.js"
   ]
 }
