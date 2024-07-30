@@ -1,25 +1,25 @@
-import { useState } from 'react'
-import work1 from '../assets/work-examples/work-example1.JPG'
-import work2 from '../assets/work-examples/work-example2.JPG'
-import work3 from '../assets/work-examples/work-example3.JPG'
-import work4 from '../assets/work-examples/work-example4.JPG'
-import work5 from '../assets/work-examples/work-example5.JPG'
-import work6 from '../assets/work-examples/work-example6.JPG'
-import work7 from '../assets/work-examples/work-example7.JPG'
-import work8 from '../assets/work-examples/work-example8.JPG'
-import rightArrow from '../assets/arrow-right.png'
-import leftArrow from '../assets/arrow-left.png'
+import { useState } from 'react';
+import work1 from '../assets/work-examples/work-example1.JPG';
+import work2 from '../assets/work-examples/work-example2.JPG';
+import work3 from '../assets/work-examples/work-example3.JPG';
+import work4 from '../assets/work-examples/work-example4.JPG';
+import work5 from '../assets/work-examples/work-example5.JPG';
+import work6 from '../assets/work-examples/work-example6.JPG';
+import work7 from '../assets/work-examples/work-example7.JPG';
+import work8 from '../assets/work-examples/work-example8.JPG';
+import rightArrow from '../assets/arrow-right.png';
+import leftArrow from '../assets/arrow-left.png';
 
-const photoArr = [work1, work3, work4, work5, work6, work7, work8]
+const photoArr = [work1, work3, work4, work5, work6, work7, work8];
 
 function WorkExamplesPage() {
-	const [index, setIndex] = useState(0)
+	const [index, setIndex] = useState(0);
 
 	function prevPhoto() {
-		setIndex(index - 1 < 0 ? photoArr.length - 1 : index - 1)
+		setIndex(index - 1 < 0 ? photoArr.length - 1 : index - 1);
 	}
 	function nextPhoto() {
-		setIndex(index + 1 > photoArr.length - 1 ? 0 : index + 1)
+		setIndex(index + 1 > photoArr.length - 1 ? 0 : index + 1);
 	}
 
 	return (
@@ -50,7 +50,7 @@ function WorkExamplesPage() {
 										}}
 										src={o}
 									/>
-								)
+								);
 							})}
 						</div>
 						<div
@@ -67,7 +67,7 @@ function WorkExamplesPage() {
 										style={{
 											border: '1px solid #727881',
 											borderRadius: '10px',
-											backgroundColor: i === index ? '#ff0480' : '#727881',
+											backgroundColor: i === index ? '#000000' : '#727881',
 											marginRight: '10px',
 											width: '10px',
 											height: '10px',
@@ -75,7 +75,7 @@ function WorkExamplesPage() {
 										}}
 										onClick={() => setIndex(i)}
 									></span>
-								)
+								);
 							})}
 						</div>
 					</div>
@@ -106,8 +106,8 @@ function WorkExamplesPage() {
 				</div>
 			</div>
 		</>
-	)
+	);
 }
 
-export default WorkExamplesPage
+export default WorkExamplesPage;
 

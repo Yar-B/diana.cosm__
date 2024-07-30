@@ -1,9 +1,30 @@
+/* типа запрет ротации моб устройства
+@media only screen and (min-width: 415px) здесь менять and (max-width: 1279px) {
+	body {
+		display: none;
+	}
+	html:before {
+		content: 'Переверните устройство в портретный режим или откройте сайт с компьютера.';
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		background: #fff;
+		z-index: 999;
+		text-align: center;
+		width: 80%;
+		height: 100px;
+	}
+} */
+
 .display-flex {
 	display: flex;
 }
 
 .button {
-	background-color: #ff0480;
+	background-color: #000000;
 	border-radius: 20px;
 	font-size: 25px;
 	height: 50px;
@@ -16,14 +37,14 @@
 .button:active {
 	transition: 0.3s;
 	background-color: #fff;
-	color: #ff0480;
+	color: #000000;
 }
 
 .page-wrapper {
 	height: 100vh;
 	width: 100%;
 	background-color: white;
-	border-bottom: 1px solid #727881;
+	border-bottom: 1px solid #000000;
 }
 
 @media (max-width: 450px) {
@@ -62,7 +83,7 @@
 }
 
 .first-page {
-	background: linear-gradient(transparent 60%, white 90%);
+	background: linear-gradient(transparent 63%, white 90%);
 	height: 100dvh;
 	display: flex;
 	flex-direction: column-reverse;
@@ -79,7 +100,7 @@
 .first-page-title {
 	/* backdrop-filter: blur(5px); */
 	margin-bottom: 10px;
-	color: #ff0480;
+	color: #000000;
 	padding: 50px;
 	display: flex;
 	flex-direction: column;
@@ -93,7 +114,6 @@
 
 .first-page-title > .description {
 	font-size: 32px;
-	margin-bottom: 25px;
 }
 
 .first-page-title > .button {
@@ -127,7 +147,7 @@
 
 .second-page > .title {
 	flex: 1;
-	color: #727881;
+	color: #000000;
 	font-size: 90px;
 	font-weight: 400;
 	display: flex;
@@ -139,7 +159,7 @@
 	font-size: 40px;
 	max-width: 700px;
 	text-align: center;
-	color: #727881;
+	color: #000000;
 	margin: 0 25px;
 	font-weight: 400;
 	/* margin-bottom: 90px; */
@@ -178,7 +198,7 @@
 }
 
 .main-color {
-	color: #ff0480;
+	color: #000000;
 }
 
 .photo-of-works {
@@ -215,7 +235,7 @@
 .price-list-page-wrapper {
 	width: 100%;
 	background-color: white;
-	border-bottom: 1px solid #727881;
+	border-bottom: 1px solid #000000;
 }
 
 .price-list-page {
@@ -230,18 +250,18 @@
 
 .price-list-page > .title {
 	margin: 20px 0;
-	color: #727881;
+	color: #000000;
 	font-size: 40px;
 	font-weight: 400;
 	align-text: center;
 }
 .price-list-card {
 	width: 100%;
-	border: 3px solid #ff0480;
+	border: 3px solid #00000000;
 	border-radius: 10px;
 	padding: 10px 20px;
 	margin-bottom: 10px;
-	color: #727881;
+	color: #000000;
 	h2 {
 		margin-top: 0;
 	}
@@ -263,9 +283,9 @@
 }
 
 .bottom-row {
-	color: #727881;
+	color: #000000;
 	padding: 40px 0 15px 0;
-	border-bottom: 3px solid #ff0480;
+	/* border-bottom: 3px solid #000000; */
 	margin: 0 20px;
 }
 
@@ -283,7 +303,7 @@
 
 .work-examples-page > .title {
 	margin-bottom: 30px;
-	color: #727881;
+	color: #000000;
 	font-size: 40px;
 	font-weight: 400;
 	align-text: center;
@@ -305,7 +325,7 @@
 .photo-slide-button {
 	height: 50px;
 	width: 50px;
-	background-color: #ff0480;
+	background-color: #000000;
 	/* &.right {
 		border-radius: 10px 0 0 10px;
 	}
@@ -346,7 +366,7 @@
 	& > .title {
 		pointer-events: none;
 		text-decoration: none;
-		color: #727881;
+		color: #000000;
 		font-size: 40px;
 		font-weight: 400;
 		margin-bottom: 60px;
@@ -366,7 +386,7 @@
 	box-sizing: border-box;
 	margin-bottom: 25px;
 	width: 100%;
-	background-color: #ff0480;
+	background-color: #000000;
 	border-radius: 20px;
 	padding: 10px 30px 10px 60px;
 	display: flex;
@@ -374,7 +394,7 @@
 	justify-content: space-between;
 	&:active {
 		transition: 0.3s;
-		background-color: #ff048073;
+		background-color: #00000073;
 	}
 }
 
@@ -392,7 +412,7 @@
 .footer-row {
 	box-sizing: border-box;
 	padding: 0 20px;
-	color: #727881;
+	color: #000000;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;

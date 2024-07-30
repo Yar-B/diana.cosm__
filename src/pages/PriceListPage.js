@@ -49,14 +49,6 @@ function PriceListPage() {
 							<span>8.500</span>
 						</div>
 						<div className='service-row'>
-							<p>Биоревитализация лица препаратом "Welle Stretch"</p>
-							<span>8.000</span>
-						</div>
-						<div className='service-row'>
-							<p>Биоревитализация лица препаратом "Bioplastica BR Evasion"</p>
-							<span>7.000</span>
-						</div>
-						<div className='service-row'>
 							<p>Биоревитализация "Hyaron"</p>
 							<span>4.000</span>
 						</div>
@@ -65,32 +57,8 @@ function PriceListPage() {
 							<span>4.500</span>
 						</div>
 						<div className='service-row'>
-							<p>Ревитализация орбитальной зоны лица скинбустером "Eye Power7+Manitol"</p>
-							<span>3.500</span>
-						</div>
-						<div className='service-row'>
-							<p>Ревитализация лица препаратом "DerMaxx Soft"</p>
-							<span>5.000</span>
-						</div>
-						<div className='service-row'>
-							<p>Ревитализация кожи головы скинбустером "Hair KeratinBioPeptides"</p>
-							<span>4.500</span>
-						</div>
-						<div className='service-row'>
-							<p>Контурная пластика губ филером "Soprano 20"</p>
-							<span>8.000</span>
-						</div>
-						<div className='service-row'>
-							<p>Контурная пластика губ филером "STYLAGE M" </p>
-							<span>10.500</span>
-						</div>
-						<div className='service-row'>
-							<p>Контурная пластика губ филером "Stylage M Lidocain"</p>
-							<span>11.500</span>
-						</div>
-						<div className='service-row'>
-							<p>Контурная пластика губ филером "Juvederm Ultra 3"</p>
-							<span>15.500</span>
+							<p>Биоревитализация губ "Hyaron"</p>
+							<span>4.000</span>
 						</div>
 					</div>
 
@@ -127,8 +95,8 @@ function PriceListPage() {
 				</div>
 			</div>
 		</>
-	)
+	);
 }
 
-export default PriceListPage
+export default PriceListPage;
 

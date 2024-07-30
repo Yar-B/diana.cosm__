@@ -1,9 +1,9 @@
-import tgIcon from '../assets/social-media-icons/tg.png'
-import waIcon from '../assets/social-media-icons/wa.png'
-import instIcon from '../assets/social-media-icons/inst.png'
-import vkIcon from '../assets/social-media-icons/vk.png'
-import phoneIcon from '../assets/social-media-icons/phone.png'
-import rightArrow from '../assets/arrow-right.png'
+import tgIcon from '../assets/social-media-icons/tg.png';
+import waIcon from '../assets/social-media-icons/wa.png';
+import instIcon from '../assets/social-media-icons/inst.png';
+import vkIcon from '../assets/social-media-icons/vk.png';
+import phoneIcon from '../assets/social-media-icons/phone.png';
+import rightArrow from '../assets/arrow-right.png';
 
 function ContactPage() {
 	return (
@@ -59,8 +59,8 @@ function ContactPage() {
 				</div>
 			</div>
 		</>
-	)
+	);
 }
 
-export default ContactPage
+export default ContactPage;
 
