@@ -9,8 +9,6 @@ services:
       dockerfile: Dockerfile
     networks:
       - diana
-    ports:
-      - '80:80'
   webserver:
     image: nginx:latest
     ports:
