@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/diana.cosm__/static/css/main.3fdab595.css",
-    "main.js": "/diana.cosm__/static/js/main.184f4f96.js",
+    "main.js": "/diana.cosm__/static/js/main.07c00325.js",
     "static/media/work-example5.JPG": "/diana.cosm__/static/media/work-example5.eccc17cc9a5c7b15eb80.JPG",
     "static/media/work-example8.JPG": "/diana.cosm__/static/media/work-example8.9babf6d6853712d95544.JPG",
     "static/media/work-example6.JPG": "/diana.cosm__/static/media/work-example6.37df3a3aa8541771aa06.JPG",
     "static/media/work-example7.JPG": "/diana.cosm__/static/media/work-example7.1b6efea03311c316a150.JPG",
+    "static/media/work-example10.JPG": "/diana.cosm__/static/media/work-example10.36fadcb8219a5e2f9978.JPG",
     "static/media/work1.JPEG": "/diana.cosm__/static/media/work1.25635a73921d32d32f58.JPEG",
     "static/media/work3.JPEG": "/diana.cosm__/static/media/work3.cf5322fca6d7cfa8ef9c.JPEG",
     "static/media/work-example2.JPG": "/diana.cosm__/static/media/work-example2.452079c2adc1600a316a.JPG",
     "static/media/work4.JPEG": "/diana.cosm__/static/media/work4.70ad73c19c286543d7fd.JPEG",
     "static/media/work-example1.JPG": "/diana.cosm__/static/media/work-example1.74e8e420365205ec5e2f.JPG",
+    "static/media/work-example9.JPG": "/diana.cosm__/static/media/work-example9.5b856d7c2c7c3667eaab.JPG",
     "static/media/work2.JPEG": "/diana.cosm__/static/media/work2.9764b96747fec8028bb2.JPEG",
     "static/media/work-example3.JPG": "/diana.cosm__/static/media/work-example3.86f1a11387c22cc8c2e7.JPG",
     "static/media/work-example4.JPG": "/diana.cosm__/static/media/work-example4.d831964559bb1afe9d99.JPG",
@@ -18,10 +20,10 @@
     "static/media/arrow-left.png": "/diana.cosm__/static/media/arrow-left.40fdba482594d681a081.png",
     "index.html": "/diana.cosm__/index.html",
     "main.3fdab595.css.map": "/diana.cosm__/static/css/main.3fdab595.css.map",
-    "main.184f4f96.js.map": "/diana.cosm__/static/js/main.184f4f96.js.map"
+    "main.07c00325.js.map": "/diana.cosm__/static/js/main.07c00325.js.map"
   },
   "entrypoints": [
     "static/css/main.3fdab595.css",
-    "static/js/main.184f4f96.js"
+    "static/js/main.07c00325.js"
   ]
 }
