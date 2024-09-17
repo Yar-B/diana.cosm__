@@ -7,10 +7,12 @@ import work5 from '../assets/work-examples/work-example5.JPG';
 import work6 from '../assets/work-examples/work-example6.JPG';
 import work7 from '../assets/work-examples/work-example7.JPG';
 import work8 from '../assets/work-examples/work-example8.JPG';
+import work9 from '../assets/work-examples/work-example9.JPG';
+import work10 from '../assets/work-examples/work-example10.JPG';
 import rightArrow from '../assets/arrow-right.png';
 import leftArrow from '../assets/arrow-left.png';
 
-const photoArr = [work1, work3, work4, work5, work6, work7, work8];
+const photoArr = [work1, work3, work4, work5, work6, work7, work9, work10];
 
 function WorkExamplesPage() {
 	const [index, setIndex] = useState(0);
@@ -110,4 +112,3 @@ function WorkExamplesPage() {
 }
 
 export default WorkExamplesPage;
-

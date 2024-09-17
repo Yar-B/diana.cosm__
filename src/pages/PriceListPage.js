@@ -15,7 +15,7 @@ function PriceListPage() {
 							<span>2.100</span>
 						</div>
 						<div className='service-row'>
-							<p>Лечебный по Жаке</p>
+							<p>Лечебный</p>
 							<span>2.100</span>
 						</div>
 					</div>
@@ -23,12 +23,16 @@ function PriceListPage() {
 					<div className='price-list-card'>
 						<h2>Эстетическая косметология</h2>
 						<div className='service-row'>
-							<p>Очищающий комплекс лица (чистка)</p>
-							<span>2.300</span>
+							<p>Классическая чистка лица</p>
+							<span>2.500</span>
+						</div>
+						<div className='service-row'>
+							<p>Атравматичная чистка лица</p>
+							<span>3.000</span>
 						</div>
 						<div className='service-row'>
 							<p>Неинвазивная карбокситерапия</p>
-							<span>1.800</span>
+							<span>2.200</span>
 						</div>
 						<div className='service-row'>
 							<p>Всесезонный пилинг "BioRePeelCl3"</p>
@@ -38,34 +42,55 @@ function PriceListPage() {
 							<p>
 								Всесезонный пилинг <span style={{ whiteSpace: 'nowrap' }}>"PRX-T33"</span>
 							</p>
-							<span>4000</span>
+							<span>4.000</span>
+						</div>
+						<div className='service-row'>
+							<p>Жёлтый пилинг "Yellow peel"</p>
+							<span>3.400</span>
 						</div>
 					</div>
 
 					<div className='price-list-card'>
 						<h2>Инъекционная косметология</h2>
 						<div className='service-row'>
+							<p>Биоревитализация лица "Novacutan YBio"</p>
+							<span>10.500</span>
+						</div>
+						<div className='service-row'>
+							<p>Биоревитализация лица "Novacutan SBio"</p>
+							<span>10.500</span>
+						</div>
+						<div className='service-row'>
+							<p>
+								Коллагенотерапия лица <span style={{ whiteSpace: 'nowrap' }}>"Collost micro"</span>
+							</p>
+							<span>11.100</span>
+						</div>
+						<div className='service-row'>
 							<p>Биоревитализация лица препаратом "PLINEST fast"</p>
 							<span>8.500</span>
 						</div>
 						<div className='service-row'>
-							<p>Биоревитализация "Hyaron"</p>
-							<span>4.000</span>
+							<p>Биоревитализация лица "Hyaron"</p>
+							<span>3.800</span>
 						</div>
 						<div className='service-row'>
-							<p>Ревитализация лица скинбустером "Collagen AgeControl+ PDRN"</p>
+							<p>
+								Ревитализация лица скинбустером{' '}
+								<span style={{ whiteSpace: 'nowrap' }}>"Collagen AgeControl+ PDRN"</span>
+							</p>
 							<span>4.500</span>
 						</div>
 						<div className='service-row'>
 							<p>Биоревитализация губ "Hyaron"</p>
-							<span>4.000</span>
+							<span>3.800</span>
 						</div>
 					</div>
 
 					<div className='price-list-card'>
 						<h2>Комплексы</h2>
 						<div className='service-row'>
-							<p>Очищающий комплекс лица + пилинг "ACNON"</p>
+							<p>Очищающий комплекс лица + мультипилинг "ACNON"</p>
 							<span>3.000</span>
 						</div>
 						<div className='service-row'>
@@ -81,12 +106,16 @@ function PriceListPage() {
 							<span>1.700</span>
 						</div>
 						<div className='service-row'>
-							<p>Профессиональный уход за жирной кожей лица + дарсонваль</p>
-							<span>2.100</span>
+							<p>Неинвазивная карбокситерапия + пилинг + маска</p>
+							<span>2.400</span>
 						</div>
 						<div className='service-row'>
-							<p>Профессиональный уход лица + альгинатная маска</p>
-							<span>2.100</span>
+							<p>Экспресс процедура на выход "Снятие отеков"</p>
+							<span>2.400</span>
+						</div>
+						<div className='service-row'>
+							<p>Разбор и подбор домашнего ухода</p>
+							<span>1.500</span>
 						</div>
 					</div>
 					<div className='bottom-row'>
@@ -99,4 +128,3 @@ function PriceListPage() {
 }
 
 export default PriceListPage;
-
